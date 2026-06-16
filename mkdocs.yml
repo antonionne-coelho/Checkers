@@ -1,0 +1,32 @@
+site_name: Checkers
+site_description: Documentação do projeto de agentes de Damas em Python
+site_author: Antonionne C. Paulino, Cristian D. O. de Brito, João G. R. de Sousa, Ronaldo T. de Aquino Jr.
+repo_name: Checkers
+repo_url: https://github.com/CristianDeyves/Checkers
+
+theme:
+  name: material
+
+plugins:
+  - search
+  - mkdocstrings
+  - awesome-pages
+
+nav:
+  - Home: index.md
+  - Estrutura do Projeto: project_structure.md
+  - Uso: usage.md
+  - Arquitetura: architecture.md
+  - Modelagem PEAS: peas.md
+  - Módulos:
+    - Regras: rules.md
+    - Move: move.md
+    - AI Search Utils: ai_search_utils.md
+    - UI: ui.md
+  - Tutoriais:
+    - Benchmark: tutorials/benchmark.md
+  - API:
+    - Agentes: api/agents.md
+    - Core: api/core.md
+    - AI: api/ai.md
+    - Métricas: api/metrics.md
